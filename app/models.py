@@ -6,4 +6,3 @@ class URL(db.Model):
     original_url =  db.Column(db.String(500), nullable=False)
     short_id = db.Column(db.String(10), unique=True, nullable=False)
     created_at = db.Column(db.DateTime, default=datetime.now)
-
