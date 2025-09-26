@@ -1,0 +1,6 @@
+# Requisitos para Flask Python Link Shortener
+
+Flask>=2.2.0
+pytest>=7.0.0
+
+# Se necessário, adicione outras dependências abaixo
